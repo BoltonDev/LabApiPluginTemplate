@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <LangVersion>13</LangVersion>
+    <Nullable>enable</Nullable>
+    <Authors>ProjectAuthor</Authors>
+    <Description>ProjectDescription</Description>
+    <AssemblyVersion>ProjectVersion</AssemblyVersion>
+    <AssemblyName>LabApiPluginTemplate</AssemblyName>
+    <RootNamespace>LabApiPluginTemplate</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Northwood.LabAPI" Version="1.1.0"/>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>$(SL_REFERENCES)\Assembly-CSharp-Publicized.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

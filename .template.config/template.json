@@ -1,0 +1,37 @@
+﻿{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Bolton",
+  "classifications": [ "SCP: SL" ],
+  "name": "SCP: SL Plugin (LabAPI)",
+  "description": "Template utilisée pour créer un plugin SCP: SL sous le framework LabAPI",
+  "identity": "LabApi.Plugin",
+  "shortName": "labapiplugin",
+  "sourceName": "LabApiPluginTemplate",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "symbols": {
+    "description": {
+      "type": "parameter",
+      "datatype": "text",
+      "displayName": "Description du plugin",
+      "defaultValue": "Ceci est un plugin LabApi",
+      "replaces": "ProjectDescription"
+    },
+    "author": {
+      "type": "parameter",
+      "datatype": "text",
+      "displayName": "Auteur(s) du plugin",
+      "defaultValue": "RandomAuthor",
+      "replaces": "ProjectAuthor"
+    },
+    "version": {
+      "type": "parameter",
+      "datatype": "text",
+      "displayName": "Version du plugin",
+      "defaultValue": "1.0.0",
+      "replaces": "ProjectVersion"
+    }
+  }
+}
